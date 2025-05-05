@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Personaje
+comment1.params=nombre\ e\ p
+comment1.target=Personaje(java.lang.String,\ Escenario,\ Posicion)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=java.lang.String\ destruir()
+numComments=4
