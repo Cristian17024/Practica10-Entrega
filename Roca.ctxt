@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Roca
-comment1.params=
-comment1.target=java.lang.String\ toString()
-numComments=2
+comment1.params=e\ p
+comment1.target=Roca(Escenario,\ Posicion)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

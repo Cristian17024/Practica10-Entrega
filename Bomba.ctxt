@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=Bomba
-comment1.params=
-comment1.target=void\ explotar()
+comment1.params=e\ p\ r
+comment1.target=Bomba(Escenario,\ Posicion,\ int)
 comment2.params=
-comment2.target=java.lang.String\ destruir()
+comment2.target=int\ getRadio()
 comment3.params=
-comment3.target=java.lang.String\ toString()
-numComments=4
+comment3.target=void\ explotar()
+comment4.params=
+comment4.target=java.lang.String\ destruir()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Persistencia
+comment1.params=rutaArchivo
+comment1.target=Persistencia(java.lang.String)
+comment2.params=escenario
+comment2.target=void\ cargarElementos(Escenario)
+comment3.params=escenario
+comment3.target=void\ guardarElementos(Escenario)
+numComments=4

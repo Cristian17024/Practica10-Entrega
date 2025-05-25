@@ -1,9 +1,14 @@
 public class Bomba extends Elemento implements Destruible {
+
     private int radio;
 
     public Bomba(Escenario e, Posicion p, int r) {
         super(e, p);
-        this.radio = r;
+        this.radio = 1;
+    }
+
+    public int getRadio() {
+        return radio;
     }
 
     public void explotar() {

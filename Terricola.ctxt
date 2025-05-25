@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Terricola
-comment1.params=
-comment1.target=java.lang.String\ toString()
-numComments=2
+comment1.params=nombre\ e\ p
+comment1.target=Terricola(java.lang.String,\ Escenario,\ Posicion)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

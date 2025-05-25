@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.target=Elemento
-comment1.params=
-comment1.target=Posicion\ getPosicion()
-comment2.params=p
-comment2.target=void\ setPosicion(Posicion)
-comment3.params=
-comment3.target=java.lang.String\ toString()
-numComments=4
+comment1.params=e\ p
+comment1.target=Elemento(Escenario,\ Posicion)
+comment2.params=
+comment2.target=Posicion\ getPosicion()
+comment3.params=p
+comment3.target=void\ setPosicion(Posicion)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

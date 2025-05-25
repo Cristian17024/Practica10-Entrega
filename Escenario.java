@@ -1,29 +1,32 @@
 import java.util.*;
 
 public class Escenario {
-    private String nombre;                   
-    private ArrayList<Elemento> elementos;  
-    private final int TAM = 10;              
 
-    
+    private String nombre;
+    private ArrayList<Elemento> elementos;
+    private final int TAM = 10;
+
     public Escenario(String nombre) {
         this.nombre = nombre;
-        elementos = new ArrayList<>();  
+        elementos = new ArrayList<>();
     }
 
     public void addElemento(Elemento e) {
         elementos.add(e);
     }
 
+    public ArrayList<Elemento> getElementos() {
+        return elementos;
+    }
+
     public String toString() {
-        String[][] matriz = new String[TAM][TAM];  
+        String[][] matriz = new String[TAM][TAM];
         for (int i = 0; i < TAM; i++) {
             for (int j = 0; j < TAM; j++) {
                 matriz[i][j] = "0";
             }
         }
 
-       
         for (Elemento e : elementos) {
             int r = e.getPosicion().getRenglon();
             int c = e.getPosicion().getColumna();
@@ -38,7 +41,7 @@ public class Escenario {
             sb.append("\n");
         }
 
-        return sb.toString(); 
+        return sb.toString();
     }
 
     public void destruirElementos(Posicion centro, int radio) {
@@ -57,8 +60,8 @@ public class Escenario {
 
         for (Elemento e : afectados) {
             if (e instanceof Destruible) {
-                Destruible d = (Destruible) e;  
-                System.out.println(d.destruir());  
+                Destruible d = (Destruible) e;
+                System.out.println(d.destruir());
             }
         }
     }
